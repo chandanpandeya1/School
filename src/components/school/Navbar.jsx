@@ -37,8 +37,13 @@ export default function Navbar() {
   const scrollTo = (href) => {
     setMobileOpen(false);
     setActiveLink(href);
-    const el = document.querySelector(href);
-    if (el) el.scrollIntoView({ behavior: "smooth" });
+    setTimeout(() => {
+      const el = document.querySelector(href);
+      if (el) {
+        const offset = el.getBoundingClientRect().top + window.scrollY - 80;
+        window.scrollTo({ top: offset, behavior: "smooth" });
+      }
+    }, 100);
   };
 
   return (
@@ -123,7 +128,7 @@ export default function Navbar() {
                 <button
                   key={link.href}
                   onClick={() => scrollTo(link.href)}
-                  className="block text-base font-medium text-foreground"
+                  className="block w-full text-left text-base font-medium text-foreground"
                 >
                   {link.label}
                 </button>

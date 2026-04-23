@@ -53,7 +53,7 @@ export default function HeroSection() {
     >
       <div className="absolute inset-0 bg-white/60" />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 sm:py-16 lg:py-8">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-4 sm:py-10 lg:py-8 pb-16 sm:pb-10">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 
           {/* Left - Text */}
