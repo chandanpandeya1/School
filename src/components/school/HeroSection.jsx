@@ -50,7 +50,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center overflow-hidden pt-20 sm:pt-24"
+      className="relative min-h-screen flex items-center overflow-hidden lg:pt-24"
       style={{ backgroundImage: `url(${ss7})`, backgroundSize: "cover", backgroundPosition: "center center", backgroundRepeat: "no-repeat" }}
     >
       <div className="absolute inset-0 bg-white/60" />
