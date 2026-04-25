@@ -4,12 +4,14 @@ import { MapPin, GraduationCap, ChevronLeft, ChevronRight } from "lucide-react";
 import { useLang } from "@/context/LanguageContext";
 import ss7 from "@/assets/ss7.jpg";
 import ss1 from "@/assets/ss1.jpeg";
-import ss2 from "@/assets/ss2.jpg";
-import ss3 from "@/assets/ss3.jpeg";
-import ss4 from "@/assets/ss4.jpeg";
-import ss5 from "@/assets/ss5.jpeg";
+import img2 from "@/assets/Facebook_creation_EE641F08-D1F1-43C2-97F8-50275CF99063.jpeg";
+import img3 from "@/assets/IMG-20260424-WA0002.jpg.jpeg";
+import img4 from "@/assets/IMG-20260422-WA0038.jpg.jpeg";
+import slide1 from "@/assets/slide1.jpg";
+import slide2 from "@/assets/slide2.jpg";
+import slide3 from "@/assets/slide3.jpg";
 
-const SLIDES = [ss1, ss2, ss3, ss4, ss5];
+const SLIDES = [ss1, img2, img3, img4, slide1, slide2, slide3];
 
 const t = {
   en: {
@@ -48,12 +50,12 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center overflow-hidden pt-20"
+      className="relative min-h-screen flex items-center overflow-hidden pt-20 sm:pt-24"
       style={{ backgroundImage: `url(${ss7})`, backgroundSize: "cover", backgroundPosition: "center center", backgroundRepeat: "no-repeat" }}
     >
       <div className="absolute inset-0 bg-white/60" />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-4 sm:py-10 lg:py-8 pb-16 sm:pb-10">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-2 sm:py-10 lg:py-8 pb-16 sm:pb-10">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 
           {/* Left - Text */}
@@ -104,7 +106,7 @@ export default function HeroSection() {
               className="relative w-full"
             >
               {/* Slider */}
-              <div className="relative rounded-l-2xl overflow-hidden shadow-2xl aspect-[3/2]">
+              <div className="relative rounded-[10px] overflow-hidden shadow-2xl aspect-[3/2]">
                 <AnimatePresence mode="wait">
                   <motion.img
                     key={current}

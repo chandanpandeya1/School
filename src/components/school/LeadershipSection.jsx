@@ -44,7 +44,7 @@ export default function LeadershipSection() {
   const tx = t[lang];
 
   return (
-    <section id="leadership" className="py-8 sm:py-12 lg:py-16">
+    <section id="leadership" className="py-6 sm:py-8 lg:py-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-14 lg:mb-20">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>

@@ -29,7 +29,7 @@ export default function ContactSection() {
   const tx = t[key];
 
   return (
-    <section id="contact" className="py-8 sm:py-12 lg:py-16 bg-secondary/30 relative">
+    <section id="contact" className="py-6 sm:py-8 lg:py-6 bg-secondary/30 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-12 lg:mb-16">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>

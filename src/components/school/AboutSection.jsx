@@ -38,7 +38,7 @@ export default function AboutSection() {
   const tx = t[lang];
 
   return (
-    <section id="about" className="py-8 sm:py-12 lg:py-16">
+    <section id="about" className="py-6 sm:py-8 lg:py-6">
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 xl:gap-24 items-center">

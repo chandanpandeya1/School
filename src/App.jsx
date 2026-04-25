@@ -7,6 +7,7 @@ import FeaturesSection from '@/components/school/FeaturesSection'
 import DayCareStrip from '@/components/school/DayCareStrip'
 import LeadershipSection from '@/components/school/LeadershipSection'
 import ContactSection from '@/components/school/ContactSection'
+import CampusGallery from '@/components/school/CampusGallery'
 import Footer from '@/components/school/Footer'
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
       <HeroSection />
       <AboutSection />
       <FeaturesSection />
+      <CampusGallery />
       <DayCareStrip />
       <LeadershipSection />
       <ContactSection />
