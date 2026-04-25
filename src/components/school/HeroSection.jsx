@@ -98,7 +98,7 @@ export default function HeroSection() {
           </div>
 
           {/* Right - Image Slider */}
-          <div className="lg:col-span-1 flex items-center justify-end mt-8 lg:mt-0 lg:-mr-1">
+          <div className="lg:col-span-1 flex items-center justify-end mt-2 lg:mt-0 lg:-mr-1">
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
